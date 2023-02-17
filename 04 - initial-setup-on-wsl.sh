@@ -25,8 +25,8 @@ sudo apt install fzf -y
 sed -i 's/plugins=(git)/plugins=(\ncolored-man-pages\ncolorize\ndocker\ngit\nnpm\nnvm\nsudo\nzsh-autosuggestions\nzsh-interactive-cd\nzsh-syntax-highlighting\n)/g' ~/.zshrc
 
 # set git global config
-git config --global user.name "Sayantan"
-git config --global user.email "this.sayantan@outlook.com"
+git config --global user.name "Narendra"
+git config --global user.email "narengupta84@gmail.com"
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
