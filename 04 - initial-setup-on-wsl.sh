@@ -4,13 +4,13 @@
 sudo apt update && sudo apt upgrade -y
 
 # set up ssh keys
-# mkdir ~/.ssh
-# cp /mnt/c/Users/thiss/Downloads/id_* ~/.ssh/
-# cp /mnt/c/Users/thiss/Downloads/*.pem ~/
-# chmod 700 ~/.ssh
-# chmod 644 ~/.ssh/*.pub
-# chmod 600 ~/.ssh/id_rsa
-# chmod 400 ~/*.pem
+mkdir ~/.ssh
+cp /mnt/c/Users/thisn/Downloads/id_* ~/.ssh/
+cp /mnt/c/Users/thisn/Downloads/*.pem ~/
+chmod 700 ~/.ssh
+chmod 644 ~/.ssh/*.pub
+chmod 600 ~/.ssh/id_rsa
+chmod 400 ~/*.pem
 
 # install zsh plugins
 git clone git@github.com:zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
