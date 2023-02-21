@@ -41,7 +41,7 @@ nvm install 12.11.1
 
 # install docker
 sudo apt update
-sudo apt install \
+sudo apt install -y \
     ca-certificates \
     curl \
     gnupg \
