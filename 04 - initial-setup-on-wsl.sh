@@ -82,5 +82,5 @@ git clone git@github.com:jagota/logiliteadmin.git
 git clone git@github.com:JagotaCRMPWA/api.git
 git clone git@github.com:JagotaCRMPWA/frontend.git
 git clone git@github.com:JagotaCRMPWA/postmancolllection.git
-cd ~narendra
+cd ~naren
 
